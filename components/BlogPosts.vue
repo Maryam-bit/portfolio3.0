@@ -1,13 +1,13 @@
 <template>
-  <ContentNavigation v-slot="{ navigation }">
-    <template v-for="link of navigation" :key="link.id">
-      <NuxtLink :to="link._path">
-        <Card :title="link.title" :date="link.releaseDate" :id="link.id" />
+    <template v-for="blog of blogs" :key="blog.id">
+      <NuxtLink :to="blog._path">
+        <Card :title="blog.title" :date="blog.releaseDate" :id="blog.id" />
       </NuxtLink>
     </template>
-  </ContentNavigation>
 </template>
 
-<script setup></script>
+<script setup>
+const blogs = await queryContent("blogs").find()
+</script>
 
 <style lang="scss" scoped></style>

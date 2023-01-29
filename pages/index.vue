@@ -14,8 +14,11 @@
         <img src="../assets/imgs/github.svg" width="23">
         <img src="../assets/imgs/linkedin.svg" width="23">
     </div>
+    
+    <!-- blogs  -->
     <h2 class="text-3xl font-thin mt-8">Recent Post</h2>
     <hr class="mb-7">
-    <BlogPosts/>
+    <BlogPosts />
+
   </div>
 </template>

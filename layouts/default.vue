@@ -4,7 +4,7 @@
       <header class="h-12 sm:full border bg-gray-100 border-gray-200 flex items-center justify-between px-10 text-md">
             <NuxtLink to="/">Home</NuxtLink>
             <NuxtLink to="/about2">About</NuxtLink>
-            <NuxtLink to="/about2">Blogs</NuxtLink>
+            <NuxtLink to="/blogs">Blogs</NuxtLink>
             <NuxtLink to="/about2">Projects</NuxtLink>
     </header>
     <main class="flex-grow w-full h-full pt-4 mx-auto">
