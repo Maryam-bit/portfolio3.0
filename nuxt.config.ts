@@ -6,7 +6,7 @@ export default defineNuxtConfig({
             theme: 'light-plus'
         }
     },
-    components: true,
+     components: true,
     css: ['~/assets/css/main.css'],
     postcss: {
         plugins: {
