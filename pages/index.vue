@@ -1,12 +1,5 @@
 <template>
   <div>
-    <!-- <ContentNavigation v-slot="{ navigation }">
-      <ul>
-        <li v-for="link of navigation" :key="link._path">
-          <NuxtLink :to="link._path">{{ link.title }}</NuxtLink>
-        </li>
-      </ul>
-    </ContentNavigation> -->
     <h2 class="text-lg font-normal text-gray-600 mt-10 mb-5">Polyglot engineer, enjoy learning new technologies</h2>
     <div class="flex flex-row gap-7">
         <a href=""><img src="../assets/imgs/envelope-solid.svg" width="21px"></a>
