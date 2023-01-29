@@ -13,7 +13,3 @@ const props = defineProps({
   date: String
 })
 </script>
-
-<style lang="scss" scoped>
-
-</style>

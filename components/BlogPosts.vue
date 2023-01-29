@@ -9,5 +9,3 @@
 <script setup>
 const blogs = await queryContent("blogs").find()
 </script>
-
-<style lang="scss" scoped></style>
