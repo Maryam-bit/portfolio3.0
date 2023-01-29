@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-row justify-between my-3">
+    <div class="flex flex-row justify-between mt-5 mb-1">
         <p class="text-lg"><span class="mr-3">{{ id }}</span>{{title}}</p>
         <span class="text-lg">{{ date }}</span>
     </div>
