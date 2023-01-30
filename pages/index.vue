@@ -5,13 +5,13 @@
     </h2>
     <div class="flex flex-row gap-7">
       <a rel="preconnect" href="mailto:noormaryam530@gmailcom"
-        ><img src="../assets/imgs/envelope-solid.svg" width="21px"
+        ><img src="../assets/imgs/envelope-solid.svg" width="21px" height="auto"
       /></a>
       <a rel="preconnect" href="https://github.com/Maryam-bit" target="_blank"
-        ><img src="../assets/imgs/github.svg" width="21px"
+        ><img src="../assets/imgs/github.svg" width="21px" height="auto"
       /></a>
       <a rel="preconnect" href="https://www.linkedin.com/in/maryam-noor-/" target="_blank"
-        ><img src="../assets/imgs/linkedin.svg" width="21px"
+        ><img src="../assets/imgs/linkedin.svg" width="21px" height="auto"
       /></a>
     </div>
 
