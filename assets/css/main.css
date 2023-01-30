@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000');
+@font-face{
+    font-family: Mulish;
+    src: url('../font//Mulish-Regular.ttf')
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

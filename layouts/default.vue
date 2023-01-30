@@ -5,7 +5,7 @@
         class="h-12 sm:full flex items-center justify-between text-md px-1"
       >
         <NuxtLink class="nav-items main-nav-item" to="/"
-          ><p class="text-lg md:text-2xl font-[600]">
+          ><p class="text-lg md:text-2xl font-medium">
             👨‍💻 Maryam Noor
           </p></NuxtLink
         >
