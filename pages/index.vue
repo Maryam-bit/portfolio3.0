@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="text-lg font-normal text-gray-600 mt-10 mb-5">
+    <h2 class="text-base md:text-lg font-normal text-gray-500 mt-10 mb-5">
       Polyglot engineer, enjoy learning new technologies
     </h2>
     <div class="flex flex-row gap-7">
@@ -16,7 +16,7 @@
     </div>
 
     <!-- blogs  -->
-    <h2 class="text-[26px] font-[700] text-gray-700 mt-10">Recent Posts</h2>
+    <h2 class="text-xl md:text-[26px] font-[700] text-gray-700 mt-10">Recent Posts</h2>
     <hr class="mb-7 mt-1 border-2 border-gray-200" />
     <BlogPosts />
   </div>
