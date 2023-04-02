@@ -1,9 +1,9 @@
 <template>
   <main class="prose prose-pre:bg-[#fafafa] mt-10 max-w-full">
-    <ContentDoc :path="$route.path">
-  <template v-slot="{ doc }">  
+    <ContentDoc>
+  <!-- <template v-slot="{ doc }">  
       <ContentRenderer :value="doc" />
-  </template>
+  </template> -->
   <template #not-found><Error/></template>
 </ContentDoc>
   </main>
